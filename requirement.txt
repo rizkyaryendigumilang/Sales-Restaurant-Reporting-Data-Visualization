@@ -1,0 +1,3 @@
+requirement
+
+Ini adalah file requirement. Membutuhkan untuk instal pandas, streamlit, dan tableau
