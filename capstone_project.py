@@ -21,8 +21,8 @@ st.write("They are only getting raw sales data from Excel that is difficult to u
 import streamlit as st
 import streamlit.components.v1 as components
 def main():
-    html_temp = """<<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/bca699b4-b105-4ca5-b47c-fe962b247170/page/LlGJD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>');"""
-    components.html(html_temp, height=600, width=1100)
+    html_temp = """<<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/bca699b4-b105-4ca5-b47c-fe962b247170/page/LlGJD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
+    components.html(html_temp, height=450, width=600)
 if __name__ == "__main__":    
     main()
 
@@ -32,8 +32,8 @@ st.write("Untuk melihat tingkat kematian tiap tahunnya, klik animasi pada visual
 import streamlit as st
 import streamlit.components.v1 as components
 def main():
-    html_temp = """<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/bca699b4-b105-4ca5-b47c-fe962b247170/page/LlGJD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
-    components.html(html_temp, height=770, width=1100)
+    html_temp = """<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/d422d547-acb0-4271-88df-707f18851077/page/bOpnD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
+    components.html(html_temp, height=450, width=600)
 if __name__ == "__main__":    
     main()
 
@@ -43,8 +43,8 @@ st.write("Visualisasi dibawah ini merupakan tingkat persentase kematian yang dia
 import streamlit as st
 import streamlit.components.v1 as components
 def main():
-    html_temp = """<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/bca699b4-b105-4ca5-b47c-fe962b247170/page/LlGJD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
-    components.html(html_temp, height=750, width=1250)
+    html_temp = """<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/0846add3-6218-41d0-bab3-d90b30a02d53/page/4NpnD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
+    components.html(html_temp, height=450, width=600)
 if __name__ == "__main__":    
     main()
 
@@ -66,7 +66,7 @@ st.write("Polusi udara banyak memakan korban pada lansia yang berusia 70+, baik 
 import streamlit as st
 import streamlit.components.v1 as components
 def main():
-    html_temp = """<div class='tableauPlaceholder' id='viz1686493664946' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;TingkatKematianBerdasarkanUsia&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TingkatKematianBerdasarkanUsia&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;TingkatKematianBerdasarkanUsia&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1686493664946');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='677px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='677px';} else { vizElement.style.width='100%';vizElement.style.height='827px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>"""
+    html_temp = """<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/0846add3-6218-41d0-bab3-d90b30a02d53/page/p_j9mw1ympdd" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
     components.html(html_temp, height=650, width=1000)
 if __name__ == "__main__":    
     main()
@@ -78,7 +78,7 @@ st.write("Penyebab utama meningkatnya Outdoor Air Pollution adalah industrialisa
 import streamlit as st
 import streamlit.components.v1 as components
 def main():
-    html_temp = """<div class='tableauPlaceholder' id='viz1686534838635' style='position: relative'><noscript><a href='#'><img alt='Dashboard 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;TingkatKematiandariOutdoorAirPollutionvsGDPPercapita&#47;Dashboard3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TingkatKematiandariOutdoorAirPollutionvsGDPPercapita&#47;Dashboard3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;TingkatKematiandariOutdoorAirPollutionvsGDPPercapita&#47;Dashboard3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1686534838635');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>"""
+    html_temp = """<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/0846add3-6218-41d0-bab3-d90b30a02d53/page/p_h71fa3mpdd" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
     components.html(html_temp, height=500, width=1000)
 if __name__ == "__main__":    
     main()
