@@ -21,7 +21,7 @@ st.write("They are only getting raw sales data from Excel that is difficult to u
 import streamlit as st
 import streamlit.components.v1 as components
 def main():
-    html_temp = """<<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/bca699b4-b105-4ca5-b47c-fe962b247170/page/LlGJD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
+    html_temp = """<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/bca699b4-b105-4ca5-b47c-fe962b247170/page/LlGJD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
     components.html(html_temp, height=450, width=600)
 if __name__ == "__main__":    
     main()
@@ -32,8 +32,8 @@ st.write("Untuk melihat tingkat kematian tiap tahunnya, klik animasi pada visual
 import streamlit as st
 import streamlit.components.v1 as components
 def main():
-    html_temp = """<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/d422d547-acb0-4271-88df-707f18851077/page/bOpnD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
-    components.html(html_temp, height=450, width=600)
+    html_temp = """<iframe width="650" height="488" src="https://lookerstudio.google.com/embed/reporting/d422d547-acb0-4271-88df-707f18851077/page/bOpnD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
+    components.html(html_temp, height=488, width=650)
 if __name__ == "__main__":    
     main()
 
@@ -43,7 +43,7 @@ st.write("Visualisasi dibawah ini merupakan tingkat persentase kematian yang dia
 import streamlit as st
 import streamlit.components.v1 as components
 def main():
-    html_temp = """<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/0846add3-6218-41d0-bab3-d90b30a02d53/page/4NpnD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
+    html_temp = """<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/0846add3-6218-41d0-bab3-d90b30a02d53/page/p_h71fa3mpdd" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
     components.html(html_temp, height=450, width=600)
 if __name__ == "__main__":    
     main()
@@ -56,7 +56,7 @@ st.write("Visualisasi dibawah ini merupakan persentase tingkat kematian yang dis
 import streamlit as st
 import streamlit.components.v1 as components
 def main():
-    html_temp = """<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/bca699b4-b105-4ca5-b47c-fe962b247170/page/LlGJD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
+    html_temp = """<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/0846add3-6218-41d0-bab3-d90b30a02d53/page/p_j9mw1ympdd" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
     components.html(html_temp, height=750, width=1250)
 if __name__ == "__main__":    
     main()
@@ -66,8 +66,8 @@ st.write("Polusi udara banyak memakan korban pada lansia yang berusia 70+, baik 
 import streamlit as st
 import streamlit.components.v1 as components
 def main():
-    html_temp = """<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/0846add3-6218-41d0-bab3-d90b30a02d53/page/p_j9mw1ympdd" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
-    components.html(html_temp, height=650, width=1000)
+    html_temp = """<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/0846add3-6218-41d0-bab3-d90b30a02d53/page/4NpnD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
+    components.html(html_temp, height=650, width=600)
 if __name__ == "__main__":    
     main()
 
