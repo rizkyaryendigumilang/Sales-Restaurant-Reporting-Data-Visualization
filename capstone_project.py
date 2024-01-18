@@ -67,24 +67,9 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 def main():
-    # Specify the desired box size
-    box_width = 600
-    box_height = 470
-
-    # HTML content with CSS styles for responsive sizing
-    html_temp = f"""
-    <div style="width: {box_width}px; height: {box_height}px; overflow: hidden;">
-        <iframe width="100%" height="100%" src="https://lookerstudio.google.com/embed/reporting/bca699b4-b105-4ca5-b47c-fe962b247170/page/LlGJD"
-            frameborder="0" style="border:0; max-width: 100%; max-height: 100%;" allowfullscreen
-            sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
-        </iframe>
-    </div>
-    """
-
-    # Display the HTML content
+    html_temp = """<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/0846add3-6218-41d0-bab3-d90b30a02d53/page/4NpnD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
     components.html(html_temp)
-
-if __name__ == "__main__":
+if __name__ == "__main__":    
     main()
 
 st.subheader("Analisis Faktor Penyebab Kematian Akibat Polusi Udara dengan Ekonomi")
