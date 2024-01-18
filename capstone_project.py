@@ -65,10 +65,26 @@ st.subheader("Siapa saja yang paling berdampak pada polusi udara?")
 st.write("Polusi udara banyak memakan korban pada lansia yang berusia 70+, baik di indoor air pollution dan outdoor air pollution. Pada indoor Air Pollution, anak-anak berusia dibawah 5 tahun memiliki tingkat kematian yang cukup tinggi. Pada Outdoor Air Pollution, yang paling kena dampaknya adalah lansia berusia 70+ dan diikuti oleh orang yang berusia 50-69 tahun. Populasi berusia 70 tahun ke atas jelas memiliki risiko kematian dini yang jauh lebih tinggi akibat polusi udara luar ruangan. Ini, tentu saja, bukan hasil dari paparan akut tetapi dari paparan jangka panjang selama masa hidup mereka.")
 import streamlit as st
 import streamlit.components.v1 as components
+
 def main():
-    html_temp = """<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/0846add3-6218-41d0-bab3-d90b30a02d53/page/4NpnD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>"""
-    components.html(html_temp, height=450, width=600)
-if __name__ == "__main__":    
+    # Specify the desired box size
+    box_width = 600
+    box_height = 470
+
+    # HTML content with CSS styles for responsive sizing
+    html_temp = f"""
+    <div style="width: {box_width}px; height: {box_height}px; overflow: hidden;">
+        <iframe width="100%" height="100%" src="https://lookerstudio.google.com/embed/reporting/bca699b4-b105-4ca5-b47c-fe962b247170/page/LlGJD"
+            frameborder="0" style="border:0; max-width: 100%; max-height: 100%;" allowfullscreen
+            sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+        </iframe>
+    </div>
+    """
+
+    # Display the HTML content
+    components.html(html_temp)
+
+if __name__ == "__main__":
     main()
 
 st.subheader("Analisis Faktor Penyebab Kematian Akibat Polusi Udara dengan Ekonomi")
