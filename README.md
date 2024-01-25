@@ -1,2 +1,3 @@
-# Capstone_Project
-This is my capstone project on DQLab using Streamlit
+# Sales Restaurant Reporting Data Visualization
+
+This is my Sales Restaurant Reporting Data Visualization project using Streamlit
